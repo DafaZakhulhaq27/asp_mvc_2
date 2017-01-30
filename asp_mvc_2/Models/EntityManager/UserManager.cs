@@ -54,6 +54,8 @@ namespace asp_mvc_2.Models.EntityManager
         }
 
 
+
+
         public bool IsLoginNameExist(string loginName)
         {
             using (DemoDBEntities db = new DemoDBEntities())
